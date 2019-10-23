@@ -70,7 +70,6 @@ to  {adjust(); return TO;}
 [a-zA-Z_][a-zA-Z0-9_]*  {adjust(); yylval.sval = String(yytext); return ID;}
 [0-9]+	 {adjust(); yylval.ival=atoi(yytext); return INT;}
 \"([^\"\n]|(\\\"))*\"  {adjust(); string s = String(yytext); yylval.sval = parseStr(stripQuote(s)); return STRING;}
-"/*".*"*/"  {adjust(); continue;}
-"/*".*?(\n(.*)?)+"*/"  {adjust(); continue;}
+"/*"([^\*]|(\*)*[^\*/])*"*/"  {adjust(); continue;}
 
 .	 {adjust(); EM_error(EM_tokPos,"illegal token");}
