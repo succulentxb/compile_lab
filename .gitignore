@@ -1,0 +1,4 @@
+*.o
+lab_requirements/
+.idea/
+.DS_Store

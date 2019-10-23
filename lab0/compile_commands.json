@@ -1,0 +1,52 @@
+[
+ {
+  "directory": "/Users/succulent/Documents/study_hard/compiler_implementation/lab0/lab0",
+  "arguments": [
+   "cc",
+   "-g",
+   "-c",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/Users/succulent/Documents/study_hard/compiler_implementation/lab0/lab0",
+  "arguments": [
+   "cc",
+   "-g",
+   "-c",
+   "prog1.c"
+  ],
+  "file": "prog1.c"
+ },
+ {
+  "directory": "/Users/succulent/Documents/study_hard/compiler_implementation/lab0/lab0",
+  "arguments": [
+   "cc",
+   "-g",
+   "-c",
+   "slp.c"
+  ],
+  "file": "slp.c"
+ },
+ {
+  "directory": "/Users/succulent/Documents/study_hard/compiler_implementation/lab0/lab0",
+  "arguments": [
+   "cc",
+   "-g",
+   "-c",
+   "util.c"
+  ],
+  "file": "util.c"
+ },
+ {
+  "directory": "/Users/succulent/Documents/study_hard/compiler_implementation/lab0/lab0",
+  "arguments": [
+   "cc",
+   "-g",
+   "-c",
+   "answer.c"
+  ],
+  "file": "answer.c"
+ }
+]
