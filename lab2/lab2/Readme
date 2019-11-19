@@ -1,0 +1,27 @@
+Project Name: Parsing & Abstract Syntax
+Project Specification: 
+  Please See PROGRAM Section, Chapter Tree & Four, Modern Compiler Implementation in C.
+  (Page 82 & 101 for English Version, Page Youknow for Chinese Version.:))
+
+  
+Due Date: 23:59, 3th, November, 2017
+
+Submission: make a tarball, e.g. 14302010001.tar, which contains tiger.grm and a document.
+(Your document need not to be too complex, just briefly describle how you solve this problem with at most 200 words)
+
+Submission to ftp://10.132.141.33/classes/14/ ......./WORK_UPLOAD/lab2
+
+You should all use the same format: 
+First put all the files you need to submit in the project-2 directory named by your student 
+number, e.g. 14302010001.
+Second come to the parent directory of 14302010001, and use the following command
+"tar cvf 14302010001.tar 14302010001"
+to compress it to 12302010001.tar.
+
+
+Note: Compiling Error means Zero Point.
+Make sure that your output is the same as reference output.
+
+WARNING: COPY FROM OTHERS WILL BOTH GET ZERO!
+
+TA in Charge: Zhou Bingjie WeChat:18818264100
